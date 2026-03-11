@@ -1,0 +1,29 @@
+!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTAR Library Portal - 首页</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="UTAR_logo.png" alt="UTAR Logo" id="logo"> <!-- UTAR logo -->
+        <h1>欢迎来到UTAR图书馆门户</h1> <!-- 主页标题 -->
+    </header>
+    <div class="home-container">
+        <a href="registration.html">
+            <img src="registration_image.jpg" alt="注册" class="home-image"> <!-- 注册图像 -->
+            <p>注册</p> <!-- 注册按钮 -->
+        </a>
+        <a href="edit_profile.html">
+            <img src="profile_edit_image.jpg" alt="编辑个人资料" class="home-image"> <!-- 编辑个人资料图像 -->
+            <p>编辑个人资料</p> <!-- 编辑个人资料按钮 -->
+        </a>
+        <a href="details.html">
+            <img src="details_image.jpg" alt="图书馆详情" class="home-image"> <!-- 图书馆详情图像 -->
+            <p>图书馆详情</p> <!-- 图书馆详情按钮 -->
+        </a>
+    </div>
+</body>
+</html>
